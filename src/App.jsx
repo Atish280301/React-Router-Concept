@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Switch } from 'react-router-dom';
+import { Route, Switch, Redirect } from 'react-router-dom';
 import WelcomeFile from "./Components/WelcomeFile";
 import Products from "./Components/Products";
 import MainHeader from "./Component/MainHeader";
@@ -10,6 +10,9 @@ const App = () => {
       <MainHeader />
       <main>
         <Switch>
+          <Route path="/" exact>
+            <Redirect to="/Welcome" />
+          </Route>
           <Route path="/Welcome">
             <WelcomeFile />
           </Route>

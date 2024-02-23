@@ -5,7 +5,7 @@ const MainHeader = () => {
     return (
         <>
             <div>
-                <NavLink activeClassName="active" className="nav-link" to="/Welcome">WelCome</NavLink><br/>
+                <NavLink activeClassName="active" className="nav-link" to="/Welcome">WelCome</NavLink>
                 <NavLink activeClassName="active" className="nav-link" to="/Product">Product</NavLink>
             </div>
         </>
