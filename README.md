@@ -28,3 +28,5 @@ Client-side routing is typically implemented using a routing library or framewor
 
 ### for Install react-router in your project:
 `npm install react-router-dom`
+`npm install react-router-dom@5`
+`npm install react-router-dom@6`
