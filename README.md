@@ -32,3 +32,5 @@ Client-side routing is typically implemented using a routing library or framewor
 `npm install react-router-dom@5`
 
 `npm install react-router-dom@6`
+
+Your URL path works like a **folder structure** then new subfolders (= related pages) add new segments.
