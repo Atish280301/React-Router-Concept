@@ -1,11 +1,12 @@
 import React from "react";
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
+import '../Styles/MainHeader.css';
 const MainHeader = () => {
     return (
         <>
             <div>
-                <Link to="/Welcome">WelCome</Link><br/>
-                <Link to="/Product">Product</Link>
+                <NavLink activeClassName="active" className="nav-link" to="/Welcome">WelCome</NavLink><br/>
+                <NavLink activeClassName="active" className="nav-link" to="/Product">Product</NavLink>
             </div>
         </>
     );
