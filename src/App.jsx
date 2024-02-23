@@ -10,7 +10,7 @@ const App = () => {
       <MainHeader />
       <main>
         <Switch>
-          <Route path="/Welcome" exact>
+          <Route path="/Welcome">
             <WelcomeFile />
           </Route>
           <Route path="/Product" exact>
