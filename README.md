@@ -25,3 +25,6 @@ Client-side routing, also known as front-end routing, is a technique used in web
 In the context of a single-page application (SPA) built with a framework like React, client-side routing allows for a more seamless and responsive user experience. When a user clicks on a link or interacts with a navigation element, the URL changes, but the browser does not perform a full page reload. Instead, the client-side routing logic updates the view by rendering the appropriate component based on the new URL.
 
 Client-side routing is typically implemented using a routing library or framework, such as React Router for React applications. These libraries provide components and APIs for defining routes, mapping URLs to components, and handling navigation events. Client-side routing is popular in modern web development due to its ability to create dynamic, fast-loading applications without the need for traditional server-side routing and page reloads.
+
+### for Install react-router in your project:
+`npm install react-router-dom`
